@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Square-Block {
+  width: 5em;
+  height: 5em;
+  margin: 1em;
+}
+
+.HUD-text {
+  list-style-type: none;
+  margin-left: 5em;
+  font-size: 0.8em;
+}
+
+@keyframes flash-frames {
+  from { background-color: red; }
+  to { background-color: white; }
+}
+
+.Flash-Card {
+  animation-name: flash-frames;
+  animation-duration: 1s;  
+}
