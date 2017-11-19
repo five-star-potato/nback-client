@@ -7,6 +7,8 @@ import { createStore, applyMiddleware } from 'redux';
 import App from './App';
 import gameApp from './reducers';
 import * as act from './actions';
+require('bootstrap/dist/css/bootstrap.css');
+
 //import registerServiceWorker from './registerServiceWorker';
 let store = createStore(gameApp, {}, applyMiddleware(thunk));
 

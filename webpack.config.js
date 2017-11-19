@@ -18,7 +18,7 @@ var config = {
         loader: 'babel-loader'
       },
       {
-        test: /\.(png|jpg|gif|mp3)$/,
+        test: /\.(png|jpg|gif|mp3|ttf|woff.?|svg|eot)$/,
         use: [
           {
             loader: 'file-loader',
